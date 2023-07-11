@@ -234,3 +234,38 @@ nav a {
     font-size: 18px;
     font-weight: 400;
 }
+
+/* all instagram section styles */
+.instagram-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin: 128px auto;
+}
+.instagram-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+}
+.instagram-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.instagram-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
