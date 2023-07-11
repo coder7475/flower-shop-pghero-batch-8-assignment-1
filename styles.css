@@ -253,7 +253,12 @@ nav a {
 .instagram-images {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 24px;
+}
+
+.instagram-images img {
+    filter: brightness(110%), contrast(20%);
 }
 
 .instagram-title {
@@ -268,4 +273,58 @@ nav a {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+/* all subscriber styles */
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-image: url(./assets/Rectangle\ 9.png);
+    background-color: #E55473;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 449px;
+    margin: 128px 240px;
+}
+
+.subscribe-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 122px;
+}
+
+.subscribe-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: auto;
+}
+
+.input-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 121px;
+}
+
+input[type="email"]{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    
+}
+
+.sub-btn-text {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
