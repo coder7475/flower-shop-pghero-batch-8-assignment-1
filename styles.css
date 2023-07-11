@@ -361,3 +361,49 @@ input[type="email"]{
     font-size: 16px;
     font-weight: 400;
 }
+
+/* all styles of about section */
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 210px;
+    height: 620px;
+    margin: 128px 240px;
+    /* padding: 0px auto; */
+}
+
+.about-container img {
+    height: 538px;
+    width: auto;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-title {
+    color: #1c1b1b;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.about-details1, .about-details2 {
+    width: 500px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#read-more {
+    border: 0;
+    background-color: #FFF;
+    color: rgb(85, 85, 205);
+    margin-left: 340px;
+}
