@@ -203,3 +203,34 @@ nav a {
     font-size: 24px;
     font-weight: 500;
 }
+
+/* all discount deal styles */
+.discount-container {
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 210px;
+}
+
+.discount-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.discount-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
